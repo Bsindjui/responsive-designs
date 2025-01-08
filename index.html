@@ -31,8 +31,16 @@
                 </p>
             </div>
             <div class="image-container">
-            <img src="images/desktop-image.jpg" alt="Patagonia landscape" class="main-image">
-            </div>
+                <picture>
+                  <!-- For mobile devices -->
+                  <source srcset="images/mobile-image.png" media="(max-width: 617px)">
+                  <!-- For tablets -->
+                  <source srcset="images/tablet-image.jpg" media="(max-width: 864px)">
+                  <!-- Default for desktops -->
+                  <img src="images/desktop-image.jpg" alt="Patagonia landscape" class="main-image">
+                </picture>
+              </div>
+              
         </section>
     </main>
 </body>
