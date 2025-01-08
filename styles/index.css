@@ -135,3 +135,17 @@ body{
         display: none;
     }
 }
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin-bottom: 6vh; 
+}
+  
+.main-image {
+    width: 100%;
+    height: auto; 
+}
+  
